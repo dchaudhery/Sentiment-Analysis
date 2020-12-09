@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.sample-container {
+  height: 100%;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  border: none;
+  background-color: rgba(187, 221, 231, 0.904);
+}
+
+button:active {
+  background-image: linear-gradient(267deg, #29ff82, #50ff4a, #69fff8, #86fff5);
+}
+
+button:focus {
+  outline: 0;
+  color: #2c29ff;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.pagination ul {
+  padding: 10px;
+}
+.page-item {
+  margin: 10px;
+}

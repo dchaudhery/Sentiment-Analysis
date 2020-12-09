@@ -1,5 +1,6 @@
 Steps:
-cd into api and run npm install \n
+cd into api and run npm install
+
 cd into client and run npm install
 
 After starting the sql server, use the sql-dump to generate the following commands in mysql

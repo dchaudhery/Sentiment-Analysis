@@ -1,4 +1,4 @@
-# react-sql-project
+# Sentiment Analysis
 Steps:
 
 cd into api and run npm install
